@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="cssforform.css">
+    </head>
+    <body align="center">
+        <h1 id="top">STUDENT DETAILS</h1>
+        <p class="dotted"></p>
+    <form action="info.php" method="post" style="font-size: medium;">
+       <label for="fname">First Name</label>
+       <input type="text" id="fname"><br>
+       <label for="lname">Last Name</label>
+       <input type="text" id="lname"><br>
+       <label for="mail">email</label>
+       <input type="email" id="mail"><br>
+       <label for="gender">Gender</label>
+       <input type="radio" id="male" name="gender"><label for="male">male</label>
+       <input type="radio" id="female" name="gender"><label for="female">female</label><br>
+       <label for="code">select your coding language</label>
+       <select id="code">
+        <option value="css">css</option>
+        <option value="java">java</option>
+        <option value="python">python</option>
+       </select>
+       <br><label>your hobbies</label><br>       
+       <input type="checkbox" id="hb1" name="hb1"><label for="hb1">Singing</label><br>
+       <input type="checkbox" id="hb2" name="hb2"><label for="hb2">Swimming</label><br>
+       <input type="submit" id="sub">
+       <p class="dotted"></p>
+    </form>
+    </body>
+</html>
